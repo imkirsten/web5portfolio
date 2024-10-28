@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(65, 179, 162);
+    /* text-align: center; */
+
+}
+h1 {
+    font-size: 2em;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(65, 179, 162);
+    height: 70px;
+    
+}
+
+nav {
+    padding: 15px 10px;
+    word-spacing: 30px;
+    text-align: right;
+    box-sizing: border-box;
+    width: 100vw;
+    top: 0px;
+    background-color: rgb(65, 179, 162);
+    font-size: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 10px;
+  }
+  
+  a:hover {
+    background-color:rgb(189, 232, 202);
+    color: black;
+    transition: 0.8s;
+  }
+
+
+#banner {
+    height: 60vh;
+    background-color: rgb(215, 195, 241);
+}
+
+main{
+    
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#projects{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px,1fr));
+    
+}
+
+
+figure{
+    background: rgb(red, green, blue);
+    border-radius: 10px;
+}
+
+figure img{
+    width: 100%;
+}
+
+footer{
+    background-color: blue;
+    color: azure;
+}
+
+#header, #banner, #about, #contact, #projetcs{
+    padding: 20px;
+    margin: 0 auto;
+}
